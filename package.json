@@ -1,0 +1,48 @@
+{
+  "name": "resilient-email-service",
+  "version": "1.0.0",
+  "description": "A resilient email sending service with retry logic, fallback, and rate limiting",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "email-service": "./cli/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node scripts/test.js",
+    "test:node": "node --test tests/**/*.test.js",
+    "test:watch": "node --test --watch tests/**/*.test.js",
+    "dev": "node --watch src/index.js",
+    "examples": "node examples/comprehensive.js",
+    "cli": "node cli/index.js",
+    "cli:help": "node cli/index.js help",
+    "cli:test": "node cli/index.js test",
+    "cli:status": "node cli/index.js status"
+  },
+  "keywords": [
+    "email",
+    "resilient",
+    "retry",
+    "fallback",
+    "rate-limiting",
+    "nodejs",
+    "javascript",
+    "circuit-breaker",
+    "queue"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/resilient-email-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/resilient-email-service/issues"
+  },
+  "homepage": "https://github.com/username/resilient-email-service#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
