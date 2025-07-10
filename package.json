@@ -43,6 +43,8 @@
     "url": "https://github.com/username/resilient-email-service/issues"
   },
   "homepage": "https://github.com/username/resilient-email-service#readme",
-  "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
 }
